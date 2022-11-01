@@ -1,5 +1,5 @@
-name: 'Remove artifacts'
-author: 'c-hive'
+name: 'Purge old artifacts'
+author: 'peterstockwell-sagov'
 description: ''
 runs:
   using: 'node16'
