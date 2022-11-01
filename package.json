@@ -24,9 +24,9 @@
   "license": "MIT",
   "//dependencies": {},
   "dependencies": {
-    "@actions/core": "^1.2.2",
-    "@octokit/action": "^2.0.0",
-    "@octokit/plugin-throttling": "^3.2.0",
+    "@actions/core": "^1.10.0",
+    "@octokit/action": "^4.0.10",
+    "@octokit/plugin-throttling": "^4.3.2",
     "moment": "^2.24.0",
     "yn": "^4.0.0"
   },
@@ -36,7 +36,7 @@
     "prettier": "code formatting"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.21.1",
+    "@vercel/ncc": "^0.34.0",
     "cross-env": "^7.0.0",
     "dotenv-safe": "^8.2.0",
     "eslint": "^6.8.0",

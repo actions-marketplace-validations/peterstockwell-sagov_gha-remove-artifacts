@@ -79,7 +79,7 @@ async function run() {
 
         return configs.retriesEnabled;
       },
-      onAbuseLimit: (retryAfter, options) => {
+      onSecondaryRateLimit: (retryAfter, options) => {
         console.error(
           `Abuse detected for request ${options.method} ${options.url}, retry count: ${options.request.retryCount}`
         );
